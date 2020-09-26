@@ -3,14 +3,17 @@
 ## Summary
 
 C code to access a ublox EVK-7P and log position data.
+It contains a partial implementation of the UBX protocol
+because of number of the more advanced configruation options
+are not available through the NMEA protocol.
 
-## System Description
+## Use Case
 
-I have used this code do perform some measurements on the accuracy of GPS
-under various conditions.  For this I used to ublox EVK-7P GPS/GNSS Evaluation kit (GNSS receiver).
-Ublox provides software to read data from the GNSS receiver however this runs under Windows.
-Did not like carrying a laptop around so I started looking for a smaller
-solution.
+I have used this code to perform some measurements on the accuracy of GPS
+under various conditions.  For this I used to ublox EVK-7P GPS/GNSS Evaluation
+kit (GNSS receiver).  Ublox provides software to read data from the GNSS
+receiver however this runs under Windows.  Did not like carrying a laptop
+around so I started looking for a smaller solution.
 
 This resulted in the following setup:
 
